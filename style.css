@@ -1,0 +1,263 @@
+
+#topbar
+{
+    background-color:#cecaca;
+    height:30px;
+    width:100%;
+    color:red;
+}
+#header
+{
+    float:right;
+}
+#header ul li
+{
+    display: inline;
+}
+.button-container {
+    text-align: center;
+    margin-top: 50px;
+}
+.sign-in-button {
+    background-color: #afb9c0; 
+    color: rgb(252, 241, 241);
+    font-size: 18px;
+    padding: 12px 24px;
+    border: 2px solid #c8cfd3; 
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 20px;  
+    margin-bottom: 40px;  
+}
+
+.sign-in-button:hover {
+    background-color: #5A9EC4; 
+    border-color: #3D7FA3; 
+}
+
+/* about stylet */
+.new-section {
+    background-color: #fff;
+    display: flex;
+    align-items: center;  
+    justify-content: center;  
+    flex-wrap: wrap; 
+    text-align: center;
+    padding: 50px;
+    gap: 20px;  
+}
+
+/* Image Styling */
+.about-image {
+    width: 40%;  /* Default width */
+    max-width: 300px;  /* Maximum size */
+    height: auto;
+    border-radius: 10px;
+}
+
+
+/* Text Content Styling */
+.text-content {
+    max-width: 500px;  
+}
+
+/* ✅ Responsive for Tablets & Small Screens */
+@media (max-width: 1024px) {
+    .new-section {
+        flex-direction: column;  /* Stack items vertically */
+        text-align: center;  /* Ensure center alignment */
+    }
+    .about-image {
+        width: 50%;  /* Slightly bigger on tablets */
+    }
+    .text-content {
+        max-width: 90%;
+    }
+}
+
+/* ✅ Responsive for Mobile Phones */
+@media (max-width: 768px) {
+    .about-image {
+        width: 70%;  /* Bigger image on smaller screens */
+    }
+    .text-content {
+        max-width: 90%;
+    }
+}
+
+/* ✅ Extra Small Screens (Mobile Phones - Narrow Screens) */
+@media (max-width: 480px) {
+    .about-image {
+        width: 90%;  /* Almost full width */
+    }
+    .text-content h2 {
+        font-size: 30px;  /* Reduce heading size */
+    }
+    .text-content h4 {
+        font-size: 22px;
+    }
+    .text-content h5 {
+        font-size: 16px;
+    }
+    .text-content p {
+        font-size: 14px;  /* Adjust paragraph size */
+    }
+}
+
+/*-------service section-------*/
+
+.service-section {
+    overflow: hidden; /* Prevents float issues */
+}
+
+.service-image {
+    width: 400px;
+    border-radius: 10px;
+    float: right; 
+    margin-left: 30px; 
+    padding-top: 30px;
+    padding-right: 40px;
+}
+
+.service-content {
+    max-width: 500px;
+    float: left; /* Moves text to the left */
+}
+.service-content h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.service-content p, .service-content ul {
+    font-size: 18px;
+    color: #333;
+}
+
+.service-content ul li {
+    margin-bottom: 8px;
+    position: relative;
+    padding-left: 20px;
+}
+/*--------product section---------*/
+
+.products-section {
+    background-color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+}
+.products-section h2 {
+    font-size: 40px;
+    color: #472432; 
+}
+.products-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.product-box {
+    width: 300px;
+}
+.product-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+/*--------footer abd contact section----*/
+
+.footer {
+    background-color: grey;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto;
+}
+.footer-container div {
+    max-width: 300px;
+}
+.footer h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+.footer p {
+    font-size: 16px;
+    color: #ccc;
+}
+.footer-social a {
+    font-size: 24px;
+    color: white;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+.footer-social a:hover {
+    color: #be7795;
+}
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #ccc;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #header ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .new-section,
+    .service-section {
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+    .products-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product-box {
+        width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    .new-section img,
+    .service-image {
+        width: 100%;
+    }
+}
+html
+{
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
