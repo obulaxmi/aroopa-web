@@ -49,15 +49,17 @@
     flex-wrap: wrap; 
     text-align: center;
     padding: 50px;
-    gap: 20px;  
+    gap: 50px;  
+    
 }
 
 /* Image Styling */
 .about-image {
-    width: 40%;  /* Default width */
-    max-width: 300px;  /* Maximum size */
+    width: 60%;  /* Default width */
+    max-width: 500px;  /* Maximum size */
     height: auto;
     border-radius: 10px;
+    
 }
 
 
@@ -97,6 +99,7 @@
     }
     .text-content h2 {
         font-size: 30px;  /* Reduce heading size */
+        
     }
     .text-content h4 {
         font-size: 22px;
@@ -116,8 +119,8 @@
 }
 
 .service-image {
-    width: 400px;
-    border-radius: 10px;
+    width: 600px;
+    border-radius: 30px;
     float: right; 
     margin-left: 30px; 
     padding-top: 30px;
@@ -188,6 +191,7 @@
 .footer h3 {
     font-size: 22px;
     margin-bottom: 15px;
+    text-align: center;
 }
 .footer p {
     font-size: 16px;
