@@ -27,6 +27,7 @@
     border-radius: 8px;
     cursor: pointer;
     transition: background-color 0.3s, border-color 0.3s;
+    border-color: #c07291;
 }
 
 .button-container {
