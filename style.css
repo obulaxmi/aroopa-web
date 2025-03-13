@@ -56,8 +56,8 @@
 
 /* Image Styling */
 .about-image {
-    width: 60%;  /* Default width */
-    max-width: 500px;  /* Maximum size */
+    width: 60%;  
+    max-width: 500px;  
     height: auto;
     border-radius: 20px;
     
@@ -69,11 +69,11 @@
     max-width: 500px;  
 }
 
-/* ✅ Responsive for Tablets & Small Screens */
+/* Responsive for Tablets & Small Screens */
 @media (max-width: 1024px) {
     .new-section {
         flex-direction: column;  /* Stack items vertically */
-        text-align: center;  /* Ensure center alignment */
+        text-align: center;  
     }
     .about-image {
         width: 50%;  /* Slightly bigger on tablets */
@@ -83,7 +83,7 @@
     }
 }
 
-/* ✅ Responsive for Mobile Phones */
+/* Responsive for Mobile Phones */
 @media (max-width: 768px) {
     .about-image {
         width: 70%;  /* Bigger image on smaller screens */
@@ -93,13 +93,13 @@
     }
 }
 
-/* ✅ Extra Small Screens (Mobile Phones - Narrow Screens) */
+/*  Extra Small Screens (Mobile Phones - Narrow Screens) */
 @media (max-width: 480px) {
     .about-image {
-        width: 90%;  /* Almost full width */
+        width: 90%;  
     }
     .text-content h2 {
-        font-size: 30px;  /* Reduce heading size */
+        font-size: 30px;  
         
     }
     .text-content h4 {
@@ -109,7 +109,7 @@
         font-size: 16px;
     }
     .text-content p {
-        font-size: 14px;  /* Adjust paragraph size */
+        font-size: 14px;  
     }
 }
 
@@ -146,6 +146,53 @@
     position: relative;
     padding-left: 20px;
 }
+@media (max-width: 768px) {
+    .service-section {
+        flex-direction: column;
+        text-align: center;
+        padding: 30px;
+    }
+
+    .service-image {
+        width: 90%;
+        max-width: 400px;
+        padding: 0;
+    }
+
+    .service-content {
+        max-width: 100%;
+    }
+
+    .service-content h2 {
+        font-size: 32px;
+    }
+
+    .service-content p, .service-content ul {
+        font-size: 16px;
+    }
+}
+
+/* 📌 Mobile View (480px and below) */
+@media (max-width: 480px) {
+    .service-section {
+        padding: 20px;
+    }
+
+    .service-image {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .service-content h2 {
+        font-size: 28px;
+    }
+
+    .service-content p, .service-content ul {
+        font-size: 14px;
+    }
+}
+
+
 /*--------product section---------*/
 
 .products-section {
