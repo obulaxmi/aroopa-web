@@ -1,11 +1,64 @@
-
-#topbar
-{
-    background-color:#cecaca;
-    height:30px;
-    width:100%;
-    color:red;
+/* Top Bar Styling */
+/* Top Bar Styling */
+.top-bar {
+    background-color: #d1c9cc;  /* Pinkish Background */
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Logo left, menu right */
+    width: 100%;
+    flex-wrap: wrap;
+    
 }
+
+/* Logo Styling */
+.logo {
+    height: 70px; /* Adjust as needed */
+}
+
+/* Navigation Menu */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 10px; /* Space between menu items */
+    padding-right: 70px;
+    flex-wrap: wrap;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    color: rgb(247, 247, 247);
+    font-size: 20px;
+    font-weight: bold;
+    transition: color 0.3s;
+    flex-wrap: wrap;
+}
+
+.nav-links a:hover {
+    color: #ffdde1; /* Light pink hover effect */
+}
+
+
+
+.header-section {
+    background-image: url('images/craft bg.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+.header1
+{
+    background-image: url('images/craft bg.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+
+
 #header
 {
     float:right;
@@ -42,6 +95,7 @@
     border-color: #3D7FA3; 
 }
 
+
 /* about stylet */
 .new-section {
     background-color: #fff;
@@ -51,8 +105,7 @@
     flex-wrap: wrap; 
     text-align: center;
     padding: 50px;
-    gap: 50px;  
-    
+    gap: 50px;   
 }
 
 .about-image {
@@ -112,18 +165,24 @@
 }
 
 /*-------service section-------*/
-
+.service-section {
+    background-image: url('images/craft bg.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 50px 20px;
+}
 .service-section {
     overflow: hidden; 
 }
 
 .service-image {
     width: 600px;
-    border-radius: 30px;
     float: right; 
     margin-left: 30px; 
-    padding-top: 30px;
+    padding-top: 0px;
     padding-right: 40px;
+    padding-bottom:50px;
     margin-top:50px;
 }
 
@@ -138,7 +197,6 @@
 }
 .service-content p, .service-content ul {
     font-size: 18px;
-    color: #333;
 }
 
 .service-content ul li {
@@ -156,7 +214,7 @@
     .service-image {
         width: 90%;
         max-width: 400px;
-        padding: 0;
+        padding-left: 20px;
     }
 
     .service-content {
@@ -181,6 +239,7 @@
     .service-image {
         width: 100%;
         max-width: 300px;
+        padding-right: 36px;
     }
 
     .service-content h2 {
@@ -298,6 +357,12 @@ html
 {
     scroll-behavior: smooth;
 }
+.about-section,
+.products-section {
+    background: none !important;
+}
+
+
 
 
 
