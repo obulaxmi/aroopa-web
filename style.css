@@ -17,6 +17,7 @@
 .button-container {
     text-align: center;
     margin-top: 50px;
+    
 }
 .sign-in-button {
     background-color: #afb9c0; 
@@ -123,15 +124,17 @@
     margin-left: 30px; 
     padding-top: 30px;
     padding-right: 40px;
+    margin-top:50px;
 }
 
 .service-content {
     max-width: 500px;
-    float: left; 
+    float: left;
 }
 .service-content h2 {
     font-size: 40px;
     margin-bottom: 15px;
+
 }
 .service-content p, .service-content ul {
     font-size: 18px;
